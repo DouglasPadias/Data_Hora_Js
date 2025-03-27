@@ -37,5 +37,5 @@ function updateClock(){
     minutesElement.innerText = minutes;
     secondsElement.innerText = seconds;
 }
-// setInterval vai chamar a função acada 1000 milesegundos.
+// setInterval vai chamar a função acada 1000 milessegundos.
 setInterval(updateClock, 1000);
